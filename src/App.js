@@ -7,7 +7,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <Route path="/" component={Home} exact/>
+      <h1>master first add</h1>
+      <Route path="/" component={Home} exact />
       <Route path="/tracks" component={Tracks} />
     </Router>
   );
